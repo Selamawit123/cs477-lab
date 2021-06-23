@@ -11,5 +11,5 @@ SetTimeOut: It gets executed in the "timer" phase. The timer phase is the first 
 Process.NextTick() would executed at next tick of event loop. However, the setImmediate, basically has a separate phase which ensures that the callback registered under setImmediate() will be called only after the IO callback and polling phase.
 
 3. Name 10 global modules/methods available in Node environment.
- Class Buffer, console, Exports, setImmediate(), clearImmediate(), clearInterval(), ClearTimeOut(), SetInterval(), SetTimeout(), queueMicrotask(), TextDecoder, class URL
+ Class buffer, console, exports, setImmediate(), clearImmediate(), clearInterval(), clearTimeOut(), setInterval(), setTimeout(), queueMicrotask(), textDecoder, class URL
 
