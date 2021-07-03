@@ -8,7 +8,7 @@ const options = {
 const router = express.Router(options);
 
 router.get('/', (req, res, next) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'user.html'));
+    res.sendFile(path.join(__dirname, '..', 'views', '404.html'));
 });
 
 

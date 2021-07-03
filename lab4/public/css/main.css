@@ -1,0 +1,26 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(140, 240, 160);
+  }
+
+   div,span, input , button {
+      color:black;
+  }
+
+  #title {
+    
+    color:white;
+    background-color: black;
+    font-size: 20px;
+
+  }
+
+  #carouselExampleControls {
+
+    font-size: 20px;
+    text-align: center;
+    color:indigo;
+  }
+
+  
