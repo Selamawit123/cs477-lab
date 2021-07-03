@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shop</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/axum.jpg" class="d-block w-100" alt="axum.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/dubai.jpeg" class="d-block w-100" alt="dubai.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/greatwall.jpg" class="d-block w-100" alt="greatwall.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <form action="/admin/product" method="post">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input class="form-control" id="title" name="title">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
